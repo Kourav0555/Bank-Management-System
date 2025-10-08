@@ -156,8 +156,8 @@ int main() {
             case 3: withdrawMoney(); break;
             case 4: displayAccount(); break;
             case 5: displayAllAccounts(); break;
-            case 0: cout << "Exiting program..." << endl; break;
-            default: cout << "Invalid choice!" << endl;
+            case 0: cout << " Exiting program... " << endl; break;
+            default: cout << " Invalid choice! " << endl;
         }
 
     } while(choice != 0);
